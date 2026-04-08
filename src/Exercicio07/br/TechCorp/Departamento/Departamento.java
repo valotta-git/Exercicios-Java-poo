@@ -2,6 +2,8 @@ package Exercicio07.br.TechCorp.Departamento;
 
 import Exercicio07.br.TechCorp.Funcionario.Funcionario;
 
+import java.text.DecimalFormat;
+
 public class Departamento {
 
     private String codigo;
@@ -56,6 +58,15 @@ public class Departamento {
         if (aux != null) {
             aux.desligar();
         }
+    }
+
+    public String exibirRelatorio () {
+        DecimalFormat df = new DecimalFormat("#,##0.00");
+        String aux = "";
+        aux += "departamento: " + nome + "\n";
+        aux += "Total de funcionários ativos: " + getTotalFuncionariosAtivos() + "\n";
+        aux += "folha de pagamento: " + df.format(calcularFolhaTotalLiquida()) + "\n";
+        return aux;
     }
 
     public String getCodigo() {
