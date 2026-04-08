@@ -1,4 +1,4 @@
-package exercicio02;
+package Exercicio02;
 
 public class Paciente {
 
