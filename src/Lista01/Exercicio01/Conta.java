@@ -1,4 +1,4 @@
-package exercicio01;
+package Lista01.Exercicio01;
 
 public class Conta {
     String correntista;

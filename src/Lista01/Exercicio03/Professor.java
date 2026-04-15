@@ -1,4 +1,4 @@
-package exercicio03;
+package Lista01.Exercicio03;
 
 public class Professor {
 

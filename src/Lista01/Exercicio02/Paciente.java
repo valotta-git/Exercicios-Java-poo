@@ -1,4 +1,4 @@
-package exercicio02;
+package Lista01.Exercicio02;
 
 public class Paciente {
 
